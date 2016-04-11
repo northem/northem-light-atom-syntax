@@ -4,8 +4,8 @@ Northem Light - Atom Syntax
 [![Northem Logo](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/assets/media/northem-logo.png)](http://arcticicestudio.com/northem)
 
 ### Description
-A north-bluish light theme based on the same named [color palette](https://github.com/arcticicestudio/northem) designed by [Arctic Ice Studio](http://arcticicestudio.com).  
-This is a light and more color-intensive variation.
+North-bluish light theme based on the same named color palette [Northem Light](https://github.com/arcticicestudio/northem-light) designed by [Arctic Ice Studio](http://arcticicestudio.com).  
+This is a light and more color-intensive variation of the [Northem](https://github.com/arcticicestudio/northem) color palette.
 
 ![Northem Light Color Palette](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/assets/media/northem-light.png)
 
@@ -54,6 +54,7 @@ Visit the [official website](http://arcticicestudio.com/northem) (actually under
   - <a href="https://atom.io/packages/language-property-list"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> PropertyList</a>
   - <a href="https://atom.io/packages/language-python"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> Python</a>
   - <a href="https://atom.io/packages/language-r"><img src="https://avatars1.githubusercontent.com/u/1038121" width=16 height=16/> R</a>
+  - <a href="https://atom.io/packages/react"><img src="https://avatars2.githubusercontent.com/u/606347" width=16 height=16/> React JSX</a>
   - <a href="https://atom.io/packages/language-ruby"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> Ruby</a>
   - <a href="https://atom.io/packages/language-sass"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> SASS</a>
   - <a href="https://atom.io/packages/language-shellscript"><img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> Shell</a>
@@ -70,12 +71,12 @@ Visit the [official website](http://arcticicestudio.com/northem) (actually under
   - <a href="https://atom.io/packages/minimap-git-diff"><img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/> `minimap-git-diff@^4.2.0`</a>
 
 ### Version
-[`0.17.0`](https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest)  
+[`0.18.0`](https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest)  
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-light-atom-syntax) or the [official website](http://arcticicestudio.com/northem) (actually under construction).
 
 ### Changelog
-[`0.17.0`](CHANGELOG.md)
+[`0.18.0`](CHANGELOG.md)
 
 The changelog can be viewed in the Atom package view via *Settings > Packages* by filtering for `northem-light-atom-syntax`.
 The full changelog is available at the [GitHub Repository](https://github.com/arcticicestudio/northem-light-atom-syntax) and [official website](http://arcticicestudio.com/northem) (actually under construction).
