@@ -4,8 +4,8 @@ Northem Light - Atom Syntax
 [![Northem Logo](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/assets/media/northem-logo.png)](http://arcticicestudio.com/northem)
 
 ### Description
-A north-bluish light theme based on the same named [color palette](https://github.com/arcticicestudio/northem) designed by [Arctic Ice Studio](http://arcticicestudio.com).  
-This is a light and more color-intensive variation.
+North-bluish light theme based on the same named color palette [Northem Light](https://github.com/arcticicestudio/northem-light) designed by [Arctic Ice Studio](http://arcticicestudio.com).  
+This is a light and more color-intensive variation of the [Northem](https://github.com/arcticicestudio/northem) color palette.
 
 ![Northem Light Color Palette](https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/assets/media/northem-light.png)
 
