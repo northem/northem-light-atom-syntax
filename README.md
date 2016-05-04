@@ -109,7 +109,7 @@ This project follows the [Arctic Versioning Specification (ArcVer)](https://gith
   - [`atom@1.*.*`](https://atom.io)
 
 #### Development
-  - [`northem-light@1.0.2`](https://github.com/arcticicestudio/northem-light)
+  - [`northem-light@1.0.0`](https://github.com/arcticicestudio/northem-light)
 
 **Engines**
   - [`git@2.8.*`](https://git-scm.com)
