@@ -1,6 +1,15 @@
 Northem Light - Atom Syntax
 ===========================
 
+## 0.19.0 (2016-05-04)
+### Features
+#### Language Support
+  - Implemented language support for [LaTeX](https://atom.io/packages/language-latex) (@arcticicestudio, [GHI #6][ghi-6])
+
+### [backlog][backlog-language-library-framework-support]
+This version completes the backlog item
+  - [x] <img src="http://www.latex-project.org/favicon.ico" width=16 height=16/> [LaTeX](https://atom.io/packages/language-latex) (@arcticicestudio, [GHI #6][ghi-6])
+
 ## 0.18.0 (2016-04-11)
 ### Features
 #### Language Support
@@ -193,5 +202,6 @@ Better differentiation for `HTML` tags:
 [ghi-2]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/2
 [ghi-3]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/3
 [ghi-4]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/4
+[ghi-6]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/6
 
 [ghi-northem-dark-atom-syntax-2]: https://github.com/arcticicestudio/northem-dark-atom-syntax/issues/2
