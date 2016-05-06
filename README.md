@@ -72,12 +72,12 @@ Visit the [official website](http://arcticicestudio.com/northem) (actually under
   - <a href="https://atom.io/packages/minimap-git-diff"><img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/> `minimap-git-diff@^4.2.0`</a>
 
 ### Version
-[`0.19.0`](https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest)  
+[`0.19.1`](https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest)  
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-light-atom-syntax) or the [official website](http://arcticicestudio.com/northem) (actually under construction).
 
 ### Changelog
-[`0.19.0`](CHANGELOG.md)
+[`0.19.1`](CHANGELOG.md)
 
 The changelog can be viewed in the Atom package view via *Settings > Packages* by filtering for `northem-light-atom-syntax`.
 The full changelog is available at the [GitHub Repository](https://github.com/arcticicestudio/northem-light-atom-syntax) and [official website](http://arcticicestudio.com/northem) (actually under construction).
@@ -104,13 +104,13 @@ This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branch
 This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
 
 ### Dependencies
+  - [`northem-light@1.0.1`](https://github.com/arcticicestudio/northem-light)
+
 #### Production
 **Engines**
   - [`atom@1.*.*`](https://atom.io)
 
 #### Development
-  - [`northem-light@1.0.0`](https://github.com/arcticicestudio/northem-light)
-
 **Engines**
   - [`git@2.8.*`](https://git-scm.com)
 
