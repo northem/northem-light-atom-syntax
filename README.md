@@ -104,13 +104,13 @@ This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branch
 This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
 
 ### Dependencies
+  - [`northem-light@1.0.1`](https://github.com/arcticicestudio/northem-light)
+
 #### Production
 **Engines**
   - [`atom@1.*.*`](https://atom.io)
 
 #### Development
-  - [`northem-light@1.0.0`](https://github.com/arcticicestudio/northem-light)
-
 **Engines**
   - [`git@2.8.*`](https://git-scm.com)
 
