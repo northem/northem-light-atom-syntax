@@ -1,6 +1,11 @@
 Northem Light - Atom Syntax
 ===========================
 
+## 0.19.1 (2016-05-06)
+### Bug Fixes
+#### Dependencies
+  - Updated to [`northem-light@1.0.1`](https://github.com/arcticicestudio/northem-light/releases/tag/v1.0.1) to fix an exception on package loading caused by an unrecognized input in the `northem-light.less` stylesheet (@zhrkevin, [GHI #6][ghi-6])
+
 ## 0.19.0 (2016-05-04)
 ### Features
 #### Language Support
