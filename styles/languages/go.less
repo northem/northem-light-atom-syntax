@@ -1,0 +1,131 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++
+title     Language Go                     +
+project   northem-light-atom-syntax       +
+file      go.less                         +
+version                                   +
+author    Arctic Ice Studio               +
+email     development@arcticicestudio.com +
+website   http://arcticicestudio.com      +
+copyright Copyright (C) 2016              +
++++++++++++++++++++++++++++++++++++++++++++
+
+Defines all language specific syntax highlighting classes for "Go".
+
+[Index]
+  > Comment
+  > Constant
+  > Entity
+  > Keyword
+  > Punctuation
+  > Support
+  > Storage
+  > String
+  > Variable
+
+[Dependencies]
+  > language-go
+      https://atom.io/packages/language-go
+*/
+.source.go {
+  color: @color-syntax-other;
+  /*+---------+
+    + Comment +
+    +---------+*/
+  .comment {
+    color: @color-syntax-comment;
+  }
+
+  /*+----------+
+    + Constant +
+    +----------+*/
+  .constant {
+    &.character.escape {
+      color: @color-syntax-escape;
+    }
+    &.other.placeholder {
+      color: @color-syntax-string;
+      font-style: italic;
+    }
+    &.language {
+      color: @color-syntax-keyword;
+    }
+    &.numeric {
+      color: @color-syntax-number;
+    }
+  }
+
+  /*+--------+
+    + Entity +
+    +--------+*/
+  .entity.name.function {
+    color: @color-syntax-function;
+  }
+
+  /*+---------+
+    + Keyword +
+    +---------+*/
+  .keyword {
+    color: @color-syntax-keyword;
+
+    &.package,
+    &.import {
+      color: @color-syntax-import;
+      font-weight: bold;
+    }
+    &.operator {
+      color: @color-syntax-operator;
+    }
+  }
+
+  /*+-------------+
+    + Punctuation +
+    +------------+*/
+  .punctuation {
+    &.definition.string {
+      &.begin,
+      &.end {
+        color: @color-syntax-symbol;
+      }
+    }
+    &.other {
+      &.bracket,
+      &.comma,
+      &.period {
+        color: @color-syntax-symbol;
+      }
+    }
+  }
+
+  /*+---------+
+    + Support +
+    +---------+*/
+  .support.function {
+    color: @color-syntax-function;
+  }
+
+  /*+---------+
+    + Storage +
+    +---------+*/
+  .storage.type {
+    color: @color-syntax-class;
+
+    &.class.todo {
+      color: @color-syntax-go-todo;
+    }
+  }
+
+  /*+---------+
+    + Storage +
+    +---------+*/
+  .string.quoted {
+    color: @color-syntax-string;
+  }
+
+  /*+----------+
+    + Variable +
+    +----------+*/
+  .variable.other {
+    color: @color-syntax-variable;
+  }
+}
