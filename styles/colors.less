@@ -37,10 +37,11 @@ This file defines all syntax, editor, language & package specific color variable
     (6.12) LESSCSS
     (6.13) Markdown
     (6.14) Mustache
-    (6.15) PropertyList
-    (6.16) React JSX
-    (6.17) Ruby
-    (6.18) XML
+    (6.15) Nunjucks
+    (6.16) PropertyList
+    (6.17) React JSX
+    (6.18) Ruby
+    (6.19) XML
     (7) Package Support
       (7.0) markdown-preview
       (7.1) color-picker
@@ -191,6 +192,7 @@ Arctic Versioning Specification (ArcVer)
 @color-syntax-html-cdata:           @color-syntax-comment;
 @color-syntax-html-tag:             @blue;
 @color-syntax-html-attribute-value: @light-blue;
+@color-syntax-html-entity:          @orange;
 /* +----------------------------------------------------------------------[6.7]-+ */
 
 /* +----------------------------------------------------------------------------+
@@ -242,32 +244,38 @@ Arctic Versioning Specification (ArcVer)
 /* +---------------------------------------------------------------------[6.14]-+ */
 
 /* +----------------------------------------------------------------------------+
-   + Languages - PropertyList                                            [6.15] +
+   + Languages - Nunjucks                                                [6.15] +
    +----------------------------------------------------------------------------+ */
-@color-syntax-propertylist-base64: @aqua;
-@color-syntax-propertylist-illegal: @red;
+@color-syntax-nunjucks-tag: @dark-blue;
 /* +---------------------------------------------------------------------[6.15]-+ */
 
 /* +----------------------------------------------------------------------------+
-   + Languages - React JSX                                               [6.16] +
+   + Languages - PropertyList                                            [6.16] +
    +----------------------------------------------------------------------------+ */
-@color-syntax-react-jsx-embedded-template: @dark-blue;
+@color-syntax-propertylist-base64: @aqua;
+@color-syntax-propertylist-illegal: @red;
 /* +---------------------------------------------------------------------[6.16]-+ */
 
 /* +----------------------------------------------------------------------------+
-   + Languages - Ruby                                                    [6.17] +
+   + Languages - React JSX                                               [6.17] +
    +----------------------------------------------------------------------------+ */
-@color-syntax-ruby-instance:       @aqua;
-@color-syntax-ruby-special-method: @dark-blue;
+@color-syntax-react-jsx-embedded-template: @dark-blue;
 /* +---------------------------------------------------------------------[6.17]-+ */
 
 /* +----------------------------------------------------------------------------+
-   + Languages - XML                                                     [6.18] +
+   + Languages - Ruby                                                    [6.18] +
+   +----------------------------------------------------------------------------+ */
+@color-syntax-ruby-instance:       @aqua;
+@color-syntax-ruby-special-method: @dark-blue;
+/* +---------------------------------------------------------------------[6.18]-+ */
+
+/* +----------------------------------------------------------------------------+
+   + Languages - XML                                                     [6.19] +
    +----------------------------------------------------------------------------+ */
 @color-syntax-xml-attribute: @aqua;
 @color-syntax-xml-cdata:     @color-syntax-comment;
 @color-syntax-xml-tag:       @blue;
-/* +---------------------------------------------------------------------[6.18]-+ */
+/* +---------------------------------------------------------------------[6.19]-+ */
 /* +------------------------------------------------------------------------[6]-+ */
 
 /* +----------------------------------------------------------------------------+
