@@ -1,5 +1,29 @@
 <img src="https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/assets/media/northem-light-atom-syntax-banner.png" alt="Northem Light Atom Syntax"/>
 
+# 0.20.0 (2016-08-11)
+## Features
+### Language Support
+  - Implemented language support for <img src="https://golang.org/favicon.ico" width=16 height=16/> [Go](https://atom.io/packages/language-go) (@arcticicestudio, [GHI #5][ghi-5])
+  - Implemented language support for <img src="https://www.gnu.org/favicon.ico" width=16 height=16/> [Make](https://atom.io/packages/language-make) (@arcticicestudio, [GHI #5][ghi-5])
+  - Implemented language support for [Nunjucks](https://atom.io/packages/language-nunjucks) (@arcticicestudio, [GHI #5][ghi-5])
+  - Implemented language support for <img src="http://www.scala-lang.org/favicon.ico" width=16 height=16/> [Scala](https://atom.io/packages/language-scala) (@arcticicestudio, [GHI #7][ghi-7]) :email:
+
+## [backlog][backlog-language-library-framework-support]
+This version closes the backlog item
+  - [x] <img src="https://golang.org/favicon.ico" width=16 height=16/> [Go](https://atom.io/packages/language-go) (@arcticicestudio, [GHI #5][ghi-5])
+  - [x] <img src="https://www.gnu.org/favicon.ico" width=16 height=16/> [Make](https://atom.io/packages/language-make) (@arcticicestudio, [GHI #5][ghi-5])
+  - [x] [Nunjucks](https://atom.io/packages/language-nunjucks) (@arcticicestudio, [GHI #5][ghi-5])
+  - [x] <img src="http://www.scala-lang.org/favicon.ico" width=16 height=16/> [Scala](https://atom.io/packages/language-make) (@arcticicestudio, [GHI #7][ghi-7]) :email:
+
+## Improvements
+### Language Support
+**JavaScript**  
+  - Removed a explicit keyword selector to allow syntax highlighting for all keywords
+
+### Documentation
+  - Removed unnecessary comment-doc overhead like index numbering, section delimitation etc..
+  - The documentations have been modernized and the `README` now includes a "Getting started" section
+
 ## 0.19.1 (2016-05-06)
 ### Bug Fixes
 #### Dependencies
@@ -207,5 +231,6 @@ Better differentiation for `HTML` tags:
 [ghi-3]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/3
 [ghi-4]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/4
 [ghi-6]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/6
+[ghi-7]: https://github.com/arcticicestudio/northem-light-atom-syntax/issues/7
 
 [ghi-northem-dark-atom-syntax-2]: https://github.com/arcticicestudio/northem-dark-atom-syntax/issues/2
