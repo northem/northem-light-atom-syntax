@@ -1,8 +1,8 @@
 /*
 +++++++++++++++++++++++++++++++++++++++++++
-title     Language "C"                    +
+title     Language Go                     +
 project   northem-light-atom-syntax       +
-file      c.less                          +
+file      go.less                         +
 version   0.20.0                          +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
@@ -10,25 +10,24 @@ website   http://arcticicestudio.com      +
 copyright Copyright (C) 2016              +
 +++++++++++++++++++++++++++++++++++++++++++
 
-Defines all language specific syntax highlighting classes for the "C".
+Defines all language specific syntax highlighting classes for "Go".
 
 [Index]
   > Comment
   > Constant
   > Entity
   > Keyword
-  > Meta
   > Punctuation
   > Support
   > Storage
   > String
   > Variable
 
-[Atom Package Dependencies]
-  > language-c
-      https://atom.io/packages/language-c
+[Dependencies]
+  > language-go
+      https://atom.io/packages/language-go
 */
-.source.c {
+.source.go {
   color: @color-syntax-other;
   /*+---------+
     + Comment +
@@ -41,14 +40,18 @@ Defines all language specific syntax highlighting classes for the "C".
     + Constant +
     +----------+*/
   .constant {
-    &.numeric {
-      color: @color-syntax-number;
-    }
     &.character.escape {
       color: @color-syntax-escape;
     }
+    &.other.placeholder {
+      color: @color-syntax-string;
+      font-style: italic;
+    }
     &.language {
       color: @color-syntax-keyword;
+    }
+    &.numeric {
+      color: @color-syntax-number;
     }
   }
 
@@ -62,61 +65,33 @@ Defines all language specific syntax highlighting classes for the "C".
   /*+---------+
     + Keyword +
     +---------+*/
-  .keyword.control {
+  .keyword {
     color: @color-syntax-keyword;
 
+    &.package,
     &.import {
-      &.include,
-      &.define {
-        color: @color-syntax-c-preprocessor;
-        font-weight: bold;
-      }
+      color: @color-syntax-import;
+      font-weight: bold;
     }
-  }
-
-  /*+------+
-    + Meta +
-    +------+*/
-  .meta {
-    &.preprocessor {
-      &.macro {
-        color: @color-syntax-other;
-      }
-      &.c.include {
-        color: @color-syntax-keyword;
-      }
-    }
-    &.block,
-    &.parens {
-      color: @color-syntax-other;
+    &.operator {
+      color: @color-syntax-operator;
     }
   }
 
   /*+-------------+
     + Punctuation +
-    +-------------+*/
+    +------------+*/
   .punctuation {
-    &.definition {
-      &.string.begin,
-      &.string.end,
-      &.parameters {
+    &.definition.string {
+      &.begin,
+      &.end {
         color: @color-syntax-symbol;
       }
     }
-    &.section {
-      &.block,
-      &.parens {
-        &.begin,
-        &.end {
-          color: @color-syntax-symbol;
-        }
-      }
-    }
-    &.separator {
-      &.continuation {
-        color: @color-syntax-escape;
-      }
-      &.parameters {
+    &.other {
+      &.bracket,
+      &.comma,
+      &.period {
         color: @color-syntax-symbol;
       }
     }
@@ -125,16 +100,8 @@ Defines all language specific syntax highlighting classes for the "C".
   /*+---------+
     + Support +
     +---------+*/
-  .support {
-    &.type.sys-types {
-      color: @color-syntax-class;
-    }
-    &.function {
-      &.any-method,
-      &.C99 {
-        color: @color-syntax-function;
-      }
-    }
+  .support.function {
+    color: @color-syntax-function;
   }
 
   /*+---------+
@@ -142,19 +109,23 @@ Defines all language specific syntax highlighting classes for the "C".
     +---------+*/
   .storage.type {
     color: @color-syntax-class;
+
+    &.class.todo {
+      color: @color-syntax-go-todo;
+    }
   }
 
-  /*+--------+
-    + String +
-    +--------+*/
-  .string {
+  /*+---------+
+    + Storage +
+    +---------+*/
+  .string.quoted {
     color: @color-syntax-string;
   }
 
   /*+----------+
     + Variable +
     +----------+*/
-  .variable.parameter {
+  .variable.other {
     color: @color-syntax-variable;
   }
 }

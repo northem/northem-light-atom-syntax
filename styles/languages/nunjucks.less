@@ -1,8 +1,8 @@
 /*
 +++++++++++++++++++++++++++++++++++++++++++
-title     Language "R"                    +
+title     Language Nunjucks               +
 project   northem-light-atom-syntax       +
-file      r.less                          +
+file      nunjucks.less                   +
 version   0.20.0                          +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
@@ -10,7 +10,7 @@ website   http://arcticicestudio.com      +
 copyright Copyright (C) 2016              +
 +++++++++++++++++++++++++++++++++++++++++++
 
-Defines all language specific syntax highlighting classes for "R".
+Defines all language specific syntax highlighting classes for "Nunjucks".
 
 [Index]
   > Comment
@@ -22,10 +22,11 @@ Defines all language specific syntax highlighting classes for "R".
   > Variable
 
 [Atom Package Dependencies]
-  > language-r
-      https://atom.io/packages/language-r
+  > language-nunjucks
+      https://atom.io/packages/language-nunjucks
 */
-.source.r {
+.source.nunjucks,
+.text.html.nunjucks {
   color: @color-syntax-other;
   /*+---------+
     + Comment +
@@ -37,42 +38,35 @@ Defines all language specific syntax highlighting classes for "R".
   /*+----------+
     + Constant +
     +----------+*/
-  .constant {
-    &.numeric {
-      color: @color-syntax-number;
-    }
-    &.language {
-      color: @color-syntax-constant;
-    }
-    &.character.escape {
-      color: @color-syntax-regexp;
-    }
+  .constant.character.entity {
+    color: @color-syntax-html-entity;
   }
 
   /*+--------+
     + Entity +
     +--------+*/
-  .entity.name.function {
-    color: @color-syntax-function;
+  .entity.other.nunjucks.delimiter {
+    &.tag {
+      color: @color-syntax-nunjucks-tag;
+      font-weight: bold;
+    }
+    &.variable {
+      font-weight: bold;
+    }
   }
 
   /*+---------+
     + Keyword +
     +---------+*/
   .keyword {
-    &.operator {
-      &.assignment,
-      &.arithmetic,
-      &.logical,
-      &.comparison {
-        color: @color-syntax-operator;
-      }
-    }
     &.control {
       color: @color-syntax-keyword;
     }
-    &.other {
-      color: @color-syntax-operator;
+    &.operator {
+      &.arithmetic,
+      &.comparison {
+        color: @color-syntax-operator;
+      }
     }
   }
 
@@ -80,19 +74,18 @@ Defines all language specific syntax highlighting classes for "R".
     + Punctuation +
     +-------------+*/
   .punctuation {
-    &.definition.string,
-    &.section {
-      &.begin,
-      &.end {
-        color: @color-syntax-string;
-      }
+    &.other {
+      color: @color-syntax-symbol;
+    }
+    &.definition.entity {
+      color: @color-syntax-keyword;
     }
   }
 
   /*+--------+
     + String +
     +--------+*/
-  .string {
+  .string.quoted {
     color: @color-syntax-string;
   }
 
@@ -100,9 +93,6 @@ Defines all language specific syntax highlighting classes for "R".
     + Variable +
     +----------+*/
   .variable {
-    &.other,
-    &.parameter {
-      color: @color-syntax-variable;
-    }
+    color: @color-syntax-variable;
   }
 }
