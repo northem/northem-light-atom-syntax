@@ -1,5 +1,4 @@
-Northem Light - Atom Syntax
-===========================
+<img src="https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/master/assets/media/northem-light-atom-syntax-banner.png" alt="Northem Light Atom Syntax"/>
 
 ## 0.19.1 (2016-05-06)
 ### Bug Fixes
