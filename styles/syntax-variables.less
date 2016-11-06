@@ -1,0 +1,113 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Syntax Variables                                             +
+project    northem-light-atom-syntax                                    +
+repository https://github.com/arcticicestudio/northem-light-atom-syntax +
+author     Arctic Ice Studio                                            +
+email      development@arcticicestudio.com                              +
+copyright  Copyright (C) 2016                                           +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*+---------+
+  + Imports +
+  +---------+*/
+@import "northem-light";
+
+/*+------------+
+  + Animations +
+  +------------+*/
+@syntax-transition-time: 400ms;
+
+/*+------+
+  + Base +
+  +------+*/
+@syntax-background-color: @northem-light6;
+@syntax-cursor-line: fade(@northem-light4, 55%);
+@syntax-selection-color: @northem-light4;
+@syntax-selection-flash-color: @northem-light8;
+@syntax-text-color: @northem-light0;
+
+/*+-----------------+
+  + Editor Elements +
+  +-----------------+*/
+@syntax-cursor-color: @syntax-text-color;
+@syntax-indent-guide-color: @northem-light3;
+@syntax-invisible-character-color: @northem-light3;
+@syntax-wrap-guide-color: @northem-light3;
+
+/*+-----+
+  + Git +
+  +-----+*/
+@syntax-color-added: @northem-light14;
+@syntax-color-modified: @northem-light13;
+@syntax-color-removed: @northem-light11;
+@syntax-color-renamed: @northem-light8;
+
+/*+--------+
+  + Gutter +
+  +--------+*/
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: transparent;
+@syntax-gutter-icon-color-folded: @northem-light8;
+@syntax-gutter-text-color: @syntax-gutter-text-color-subtle;
+@syntax-gutter-text-color-selected: @northem-light1;
+@syntax-gutter-text-color-subtle: fade(@syntax-text-color, 40%);
+
+/*+-------------------+
+  + Language Entities +
+  +-------------------+*/
+/*+--- Base ---+*/
+@syntax-color-annotation: @northem-light12;
+@syntax-color-attribute: @northem-light7;
+@syntax-color-attribute-id: @northem-light7;
+@syntax-color-class: @northem-light7;
+@syntax-color-comment: @northem-light2;
+@syntax-color-constant: @northem-light7;
+@syntax-color-embedded: @northem-light9;
+@syntax-color-escape: @northem-light12;
+@syntax-color-function: @northem-light8;
+@syntax-color-import: @northem-light7;
+@syntax-color-keyword: @northem-light9;
+@syntax-color-method: @northem-light8;
+@syntax-color-numeric: @northem-light15;
+@syntax-color-operator: @northem-light9;
+@syntax-color-placeholder: @northem-light12;
+@syntax-color-preprocessor: @northem-light10;
+@syntax-color-primitive: @northem-light9;
+@syntax-color-property: @northem-light9;
+@syntax-color-punctuation: @northem-light1;
+@syntax-color-regexp: @northem-light13;
+@syntax-color-require: @northem-light10;
+@syntax-color-selector: @northem-light7;
+@syntax-color-snippet: @northem-light1;
+@syntax-color-storage: @northem-light9;
+@syntax-color-string: @northem-light14;
+@syntax-color-tag: @northem-light9;
+@syntax-color-type: @northem-light7;
+@syntax-color-unit: @northem-light9;
+@syntax-color-variable: @northem-light0;
+@syntax-deprecated: @northem-light13;
+@syntax-illegal: @northem-light11;
+
+/*+--- Specific ---+*/
+@syntax-color-css-property: @northem-light7;
+@syntax-color-gfm-hr: @northem-light9;
+@syntax-color-gfm-link: @northem-light8;
+@syntax-color-gfm-punctuation: @northem-light9;
+@syntax-color-java-bracket-angle: @northem-light9;
+@syntax-color-markup-code: @northem-light7;
+@syntax-color-markup-heading: @northem-light8;
+@syntax-color-markup-heading-marker: @northem-light9;
+@syntax-color-markup-quote: @northem-light6;
+
+/*+--------+
+  + Marker +
+  +--------+*/
+@syntax-bracket-matcher-color: @northem-light8;
+@syntax-result-marker-color: fade(@northem-light8, 30%);
+@syntax-result-marker-color-selected: @northem-light8;
+
+/*+-------+
+  + Sizes +
+  +-------+*/
+@syntax-border-radius: 4px;
