@@ -1,6 +1,6 @@
 /*
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Language CoffeeScript Styles                                 +
+title      Language ShellScript Styles                                  +
 project    northem-light-atom-syntax                                    +
 repository https://github.com/arcticicestudio/northem-light-atom-syntax +
 author     Arctic Ice Studio                                            +
@@ -9,15 +9,10 @@ copyright  Copyright (C) 2016                                           +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Language Packages]
-  > language-coffee-script (https://atom.io/packages/language-coffee-script)
-
-[References]
-CoffeeScript
-  (http://coffeescript.org)
+  > language-shellscript (https://atom.io/packages/language-shellscript)
 */
-.source.coffee {
-  .variable.other.instance {
-    color: @syntax-color-variable;
-    font-style: italic;
+.source.shell {
+  .punctuation.definition.variable {
+    color: @syntax-color-keyword;
   }
 }
