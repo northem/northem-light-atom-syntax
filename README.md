@@ -40,6 +40,7 @@ This theme contains optimized styles to achieve a consistent and uniform colorin
 Detailed descriptions for supported languages can be found in the [project wiki](https://github.com/arcticicestudio/northem-light-atom-syntax/wiki/Optimized-Language-Styles).
 
 ![][scrot-lang-c]
+![][scrot-lang-elixir]
 ![][scrot-lang-java]
 ![][scrot-lang-javascript]
 ![][scrot-lang-json]
@@ -62,6 +63,7 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 <p align="center"><a href="https://github.com/arcticicestudio/northem-light-atom-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
 [scrot-lang-c]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-c.png
+[scrot-lang-elixir]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-elixir.png
 [scrot-lang-java]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-java.png
 [scrot-lang-javascript]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-javascript.png
 [scrot-lang-json]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-json.png
