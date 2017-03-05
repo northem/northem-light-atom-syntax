@@ -1,8 +1,35 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/northem-light-atom-syntax/develop/assets/northem-light-atom-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-light-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/northem-light/releases/tag/v2.0.1"><img src="https://img.shields.io/badge/Northem_Light-v2.0.1-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/v/northem-light-atom-syntax.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/dm/northem-light-atom-syntax.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-light-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/northem-light/releases/tag/v2.0.1"><img src="https://img.shields.io/badge/Northem_Light-v2.0.1-6FBAD0.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/v/northem-light-atom-syntax.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/dm/northem-light-atom-syntax.svg"/></a></p>
 
 ---
+
+# 2.1.0
+*2017-03-05*
+**Please note that the minimal version for this theme is now >=1.13.0 due to the Atom theme API change!**
+
+## Features
+### Languages
+❯ The namespace tag entity color now differs from markup/HTML tags which are also now colored correctly.  
+*Character Data* blocks tags `<![CDATA[` `]]>` are now formated bold and, including the surrounded text, using the comment color. (@arcticicestudio, #13, fd455260)
+
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-xml.png"/></p>
+
+<p align="center"><strong>CDATA</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23581982/8ea1c6b8-0120-11e7-817f-1614cb61a934.png"/></p>
+<p align="center"><strong>Markup/HTML Entities</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23581985/b7232d70-0120-11e7-871f-a28c88810b6b.png"/></p>
+<p align="center"><strong>Namespace tags</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23581987/bd2c9b70-0120-11e7-9d1b-2da7e974c273.png"/></p>
+
+❯ Implemented optimized <img src="http://elixir-lang.org/favicon.ico" width=16 height=16/> [Elixir](http://elixir-lang.org) styles for the community package <img src="https://avatars0.githubusercontent.com/u/1481354" width=16 height=16/>  [`language-elixir`](https://atom.io/packages/language-elixir). (@arcticicestudio, #14, 429a321f)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/23582009/ecaed4d0-0120-11e7-9cc4-00a6fd106313.png"/></p>
+
+## Improvements
+❯ Migrated to the new Atom theme API.  
+Starting from Atom version 1.13, the contents of `atom-text-editor` [elements are no longer encapsulated within a shadow DOM boundary](http://blog.atom.io/2016/11/14/removing-shadow-dom-boundary-from-text-editor-elements.html).  
+This means the `:host` and `::shadow` pseudo-selectors should be completely removed and all syntax selectors should be prepended with `syntax--`.
+To prevent breakage with existing style sheets, Atom will automatically upgrade selectors for versions less or equal to 1.12. (@arcticicestudio, #15, d915b739)
+
+<p align="center"><img src="http://blog.atom.io/img/posts/shadow-dom.png"/></p>
 
 # 2.0.0
 *2016-11-10*
