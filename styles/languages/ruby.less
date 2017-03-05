@@ -5,7 +5,7 @@ project    northem-light-atom-syntax                                    +
 repository https://github.com/arcticicestudio/northem-light-atom-syntax +
 author     Arctic Ice Studio                                            +
 email      development@arcticicestudio.com                              +
-copyright  Copyright (C) 2016                                           +
+copyright  Copyright (C) 2017                                           +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Language Packages]
@@ -15,16 +15,16 @@ copyright  Copyright (C) 2016                                           +
 Ruby
   (https://www.ruby-lang.org)
 */
-.source.ruby {
-  .constant.other.symbol > .punctuation {
+.syntax--source.syntax--ruby {
+  .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
     color: @syntax-color-keyword;
   }
 
-  .variable.other.constant {
+  .syntax--variable.syntax--other.syntax--constant {
     color: @syntax-color-constant;
   }
 
-  .punctuation.definition.variable {
+  .syntax--punctuation.syntax--definition.syntax--variable {
     color: @syntax-color-keyword;
   }
 }

@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/northem-light-atom-syntax/develop/assets/northem-light-atom-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/northem-light-atom-syntax"><img src="https://img.shields.io/travis/arcticicestudio/northem-light-atom-syntax/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/northem-light-atom-syntax"><img src="https://circleci.com/gh/arcticicestudio/northem-light-atom-syntax.svg?style=shield&circle-token=87ce6ff66cfdc57649f4d7cad6fa5282fcddd7fa"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-light-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/northem-light/releases/tag/v2.0.1"><img src="https://img.shields.io/badge/Northem_Light-v2.0.1-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/v/northem-light-atom-syntax.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/dm/northem-light-atom-syntax.svg"/></a></p>
+<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/northem-light-atom-syntax"><img src="https://img.shields.io/travis/arcticicestudio/northem-light-atom-syntax/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/northem-light-atom-syntax"><img src="https://circleci.com/gh/arcticicestudio/northem-light-atom-syntax.svg?style=shield&circle-token=87ce6ff66cfdc57649f4d7cad6fa5282fcddd7fa"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/northem-light-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/northem-light-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/northem-light/releases/tag/v2.0.1"><img src="https://img.shields.io/badge/Northem_Light-v2.0.1-6FBAD0.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/v/northem-light-atom-syntax.svg"/></a> <a href="https://atom.io/themes/northem-light-atom-syntax"><img src="https://img.shields.io/apm/dm/northem-light-atom-syntax.svg"/></a></p>
 
 <p align="center">A north-bluish, light clean and elegant Atom syntax theme.</p>
 
@@ -40,6 +40,7 @@ This theme contains optimized styles to achieve a consistent and uniform colorin
 Detailed descriptions for supported languages can be found in the [project wiki](https://github.com/arcticicestudio/northem-light-atom-syntax/wiki/Optimized-Language-Styles).
 
 ![][scrot-lang-c]
+![][scrot-lang-elixir]
 ![][scrot-lang-java]
 ![][scrot-lang-javascript]
 ![][scrot-lang-json]
@@ -47,20 +48,22 @@ Detailed descriptions for supported languages can be found in the [project wiki]
 ![][scrot-lang-php]
 ![][scrot-lang-python]
 ![][scrot-lang-ruby]
+![][scrot-lang-xml]
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-2.0.0-blue.svg)](https://github.com/arcticicestudio/northem-light-atom-syntax/blob/v2.0.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-2.1.0-71A7CA.svg)](https://github.com/arcticicestudio/northem-light-atom-syntax/blob/v2.1.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-71A7CA.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-71A7CA.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/northem-light-atom-syntax/issues).
 
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
 
-<p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
+<p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2017 Arctic Ice Studio</p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/northem-light-atom-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/northem-light-atom-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5781B3.svg"/></a></p>
 
 [scrot-lang-c]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-c.png
+[scrot-lang-elixir]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-elixir.png
 [scrot-lang-java]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-java.png
 [scrot-lang-javascript]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-javascript.png
 [scrot-lang-json]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-json.png
@@ -68,4 +71,5 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 [scrot-lang-php]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-php.png
 [scrot-lang-python]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-python.png
 [scrot-lang-ruby]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-ruby.png
+[scrot-lang-xml]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-lang-xml.png
 [scrot-top]: https://raw.githubusercontent.com/arcticicestudio/northem-light-atom-syntax/develop/assets/scrot-top.png
